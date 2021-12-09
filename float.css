@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+header {
+  display: block;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+ul > li {
+  float: left;
+  padding: 4px 0.5em;
+  line-height: 32px;
+}
+
+ul {
+  display: inline-block;
+}
+
+.logo {
+  background: skyblue;
+  display: inline-block;
+  float: left;
+  margin-top: 8px;
+}
+
+.logo > img {
+  height: 26px;
+  vertical-align: middle;
+}
+
+.nav {
+  float: left;
+  margin-left: 20px;
+}
+
+header {
+  background: skyblue;
+  color: white;
+}
+
+.content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.content > aside {
+  width: 200px;
+  height: 300px;
+  float: left;
+  background: lightcyan;
+}
+
+.content > main {
+  height: 300px;
+  width: 500px;
+  float: left;
+  background: lemonchiffon;
+}
+
+.content > .ad {
+  width: 100px;
+  height: 300px;
+  float: left;
+  background: lightblue;
+}
+
+.imageList {
+  border: 1px solid red;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageList > .image {
+  width: 191px;
+  height: 191px;
+  background: blanchedalmond;
+  float: left;
+  border: 1px solid blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+
+.imageList > .x {
+  margin-right: -12px;
+}
